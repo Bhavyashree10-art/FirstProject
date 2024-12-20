@@ -1,0 +1,188 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    background-color: rgb(234, 128, 128);
+    padding: 20px;
+    width: 100%;
+  }
+  
+  header img {
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation Bar */
+  nav.container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #d3d5ca;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  /* Navigation Links */
+  nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #007BFF; /* Hover effect */
+  }
+  
+  /* Search Form Styling */
+  .nav-search {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .nav-search .searchBox {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 200px; /* Fixed width for the search input */
+  }
+  
+  .nav-search .searchButton {
+    padding: 10px 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-search .searchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Main Section */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  main h1 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form input:focus {
+    border-color: aquamarine;
+    outline: none;
+    box-shadow: 0 0 6px aquamarine;
+  }
+  
+  .submit {
+    padding: 10px;
+    background-color: rgb(87, 127, 144);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 80%;
+    transition: 0.3s;
+  }
+  
+  .submit:hover {
+    background-color: aquamarine;
+    color: black;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    background-color: rgb(216, 167, 169);
+    padding: 10px;
+    width: 100%;
+  }
+  label {
+     margin-bottom: 10px;
+     font-weight: bold;
+ }
+select { 
+    padding: 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    width: 200px; 
+}
+select:hover {
+    color: #007BFF; /* Hover effect */
+  }
+
+  main .DateClass{
+    padding: 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    width: 150px; 
+}
+main .DateClass:hover{
+     color: #007BFF; /* Hover effect */
+}
+main h4{
+    margin-left: -87%;
+}
