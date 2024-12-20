@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Little Lemon</title>
+        <link rel="stylesheet" href="css/flexbox5.css">
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" alt="Little Lemon Logo" style="width: 100px; height: 100px;">
+            <h1>Little Lemon</h1>
+        </header>
+        <nav class="container">
+            <ul>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="SignUp.html">SignUp</a></li>
+                <li><a href="SignIn.html">SignIn</a></li>
+            </ul>
+                <div class="nav-search"> <input type="text" class="searchBox" placeholder="Search here.."> <button class="searchButton">Search</button> </div>
+        </nav>
+    <main>
+    <h1> Book A Table</h1>
+        <form method="Post">
+            <div>
+                <label for="booking_date">Booking Date</label>
+                <input class="DateClass" type="Date" id="booking_date" name="booking_date">
+            </div>
+            <div>
+                <label for="booking_people">Booking for number of people</label>
+                <input type="range" id="booking_people" name="booking_people" min = "2" max="10" value ="4"  oninput="this.nextElementSibling.value = this.value">
+                <output>4</output>
+            </div>
+            <div class=" ">
+                <label for="booking_locations">Locations</label> 
+                <select id="booking_locations" name="booking_locations">
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Mysuru">Mysuru</option> </select>
+            </div>
+            <div>
+                <button class="submit" type="submit">Submit</button>
+            </div>
+        </form>
+        </main>
+        <footer>
+            <h3>&copy; Little Lemon</h3>
+        </footer>
+        </body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="css/flexbox5.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="logo.png" alt="Little Lemon Logo" style="width: 100px; height: 100px;">
+        <h1>Little Lemon</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav class="container">
+        <ul>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="SignUp.html">Sign Up</a></li>
+            <li><a href="BookATable.html">Book a Table</a></li>
+        </ul>
+        <div class="nav-search"> <input type="text" class="searchBox" placeholder="Search here.."> <button class="searchButton">Search</button> </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <h1>Sign In</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="user_name">Username:</label>
+                <input
+                    class="username"
+                    type="text"
+                    id="user_name"
+                    name="user_name"
+                    required
+                    minlength="3"
+                    maxlength="13"
+                    placeholder="Enter your name"
+                    aria-label="User Name"
+                >
+            </div>
+            <div class="form-group">
+                <label for="user_password">Password:</label>
+                <input
+                    class="userpassword"
+                    type="password"
+                    id="user_password"
+                    name="user_password"
+                    required
+                    minlength="8"
+                    maxlength="15"
+                    placeholder="Enter your password"
+                    aria-label="User Password"
+                >
+            </div>
+            <div>
+                <button class="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <h3>&copy; Little Lemon</h3>
+    </footer>
+</body>
+</html>
